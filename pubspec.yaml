@@ -1,0 +1,51 @@
+name: chat
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  firebase_core: ^4.12.1
+  firebase_auth: ^6.5.6
+  cloud_firestore: 6.7.1
+  image_picker: ^1.2.3
+  file_picker: ^11.0.3
+  emoji_picker_flutter: ^4.5.3
+  firebase_storage: ^13.4.6
+  record: ^6.0.0
+  local_auth: ^2.3.0
+  flutter_secure_storage: ^9.2.4
+  shared_preferences: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
+
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "images/icons8-chat-100.png"
+  adaptive_icon_background: "#16152E"
+  adaptive_icon_foreground: "images/icons8-chat-100.png"
+  remove_alpha_ios: true
